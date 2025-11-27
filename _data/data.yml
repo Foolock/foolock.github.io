@@ -42,7 +42,7 @@ sidebar:
 career-profile:
     title: ABOUT ME
     summary: |
-      I am a second-year Ph.D. student at the Department of Electrical and Computer Engineering at the University of Wisconsin-Madison, 
+      I am a third-year Ph.D. student at the Department of Electrical and Computer Engineering at the University of Wisconsin-Madison, 
       advised by Prof. Tsung-Wei(TW) Huang.
       My research has focused on Task Graph Partition, Parallel Computing, and Design Automation. 
       With the amazing support from our research group and collaborators, I have published papers at three top-tier conferences: DAC, ICCAD, and ISPD.
@@ -65,8 +65,8 @@ experiences:
         time: 2023.9 - Present
         company: University of Wisconsin-Madison
         details: |
-          Designed PASTA, a task graph partitioning algorithm for static timing analysis, and implemented it in parallel CPU version (C-PASTA in ISPD'2024) and GPU version (G-PASTA in DAC'2024). 
-          They both bring significant speedup to the update timing process in OpenTimer.
+           - Designed PASTA, a task graph partitioning algorithm for static timing analysis, and implemented it in parallel CPU version (C-PASTA in ISPD'2024) and GPU version (G-PASTA in DAC'2024). They both bring significant speedup to the update timing process in OpenTimer.
+           - Designed iTAP, an incremental task graph partitioning algorithm for static timing analysis (ASP-DAC'2025).
       - role: Research Assistant
         time: 2023.1 - 2023.8
         company: University of Utah
@@ -95,15 +95,18 @@ projects:
     title: Projects
     intro: >
     assignments:
-      - title: C-PASTA
-        link: "#"
-        tagline: "Parallel CPU Partitioning Algorithm for Static Timing Analysis"
+      - title: iTAP 
+        link: "https://tsung-wei-huang.github.io/papers/2025-ASPDAC-iTAP.pdf"
+        tagline: "Incremental Task Graph Partitioner for Task-parallel Static Timing Analysis"
         
       - title: G-PASTA
-        link: "#"
+        link: "https://tsung-wei-huang.github.io/papers/2024-DAC-gpasta.pdf"
         tagline: "GPU Accelerated Partitioning Algorithm for Static Timing Analysis"
-        
 
+      - title: C-PASTA
+        link: "https://tsung-wei-huang.github.io/papers/ispd24.pdf"
+        tagline: "Parallel CPU Partitioning Algorithm for Static Timing Analysis"
+       
 publications:
     title: Publications
     intro: Conference Papers
