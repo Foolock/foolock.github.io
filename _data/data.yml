@@ -83,13 +83,13 @@ experiences:
         time: 2026.1 - 2026.5
         company: University of Wisconsin-Madison 
         details: |
-          ECE376: Electrical and Electronic Circuits.
+          ECE 376 Electrical and Electronic Circuits.
             - Led the course discussion.
       - role: Teaching Assistant
         time: 2022.9 - 2022.12
         company: Rutgers University
         details: |
-          ECE 14:332:231: Digital Logic Design. 
+          ECE 14:332:231 Digital Logic Design. 
             - Designed the lab materials and policies.
             - Designed the final project (A simple RISC-V architecture written in SystemVerilog).
 projects:
