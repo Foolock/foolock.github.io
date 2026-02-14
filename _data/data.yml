@@ -33,7 +33,7 @@ sidebar:
 career-profile:
     title: ABOUT ME
     summary: |
-      I am a fourth-year Ph.D. student in the Department of Electrical and Computer Engineering at the University of Wisconsin–Madison, advised by Prof. Tsung-Wei (TW) Huang. My research focuses on task graph partitioning, parallel computing, and design automation. Recently, I have been working on memory-bound GPU acceleration problems, including FDTD simulation and SSTA. With strong support from my research group and collaborators, I have published papers at top-tier conferences including DAC, ICCAD, and ISPD. Outside of research, I enjoy driving manual cars in my free time — save the manuals!
+      I am a fourth-year Ph.D. student in the Department of Electrical and Computer Engineering at the University of Wisconsin–Madison, advised by Prof. Tsung-Wei (TW) Huang. My research focuses on task graph partitioning, parallel computing, and design automation. My skill sets mainly includes C/C++ and CUDA programming. Recently, I have been working on memory-bound GPU acceleration problems, including FDTD simulation and SSTA. With strong support from my research group and collaborators, I have published papers at top-tier conferences including DAC, ICCAD, and ISPD. Outside of research, I enjoy driving manual cars in my free time — save the manuals!
 
 education:
     title: Education
@@ -76,10 +76,6 @@ experiences:
             The CNN computation part is implemented in Verilog on the FPGA part of the board. Data transfer is controlled by the SoC ZYNQ processor programmed in C. 
           - Implemented a parser in JavaScript with RapidWright library to parse the placement information in Xilinx's Vivado Design Tools. The output of the parser, 
             which contains the placement information from Vivado, can be used as input to academic placers to improve the placement results from Vivado. The improved placement results from the academic placers can then be inputted back to Vivado to finish the later routing process.
-
-teaching-experiences:
-    title: Teaching Experiences
-    info:
       - role: Teaching Assistant
         time: 2026.1 - 2026.5
         company: University of Wisconsin-Madison 
@@ -93,6 +89,7 @@ teaching-experiences:
           ECE 14:332:231 Digital Logic Design. 
             - Designed the lab materials and policies.
             - Designed the final project (A simple RISC-V architecture written in SystemVerilog).
+
 projects:
     title: Projects
     intro: >
