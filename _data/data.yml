@@ -50,6 +50,10 @@ career-profile:
 education:
     title: Education
     info:
+      - degree: PhD in Electrical & Computer Engineering
+        university: University of Wisconsin, Madison 
+        time: 2023 - Present 
+
       - degree: MS in Electrical & Computer Engineering
         university: Rutgers University
         time: 2019 - 2021
@@ -65,13 +69,15 @@ experiences:
         time: 2023.9 - Present
         company: University of Wisconsin-Madison
         details: |
-           - Designed PASTA, a fast task-graph partitioning algorithm for static timing analysis, with both a parallel CPU version (C-PASTA ISPD’24) and a GPU version (G-PASTA DAC’24). PASTA aims to reduce task-scheduling overhead by partitioning the original task graph into a smaller graph without affecting much its parallelism. 
-           - Designed iTAP, an incremental task graph partitioning algorithm for static timing analysis (ASP-DAC'25). iTAP is 
+          - Designed PASTA, a fast task-graph partitioner for static timing analysis (STA), with both a parallel CPU version (C-PASTA ISPD’24) and a GPU version (G-PASTA DAC’24). PASTA aims to reduce task-scheduling overhead by partitioning the original task graph into a smaller graph without affecting too much its parallelism. 
+          - Designed iTAP, an incremental task graph partitioner for STA built on top of PASTA (ASP-DAC'25). iTAP aims to further reduce the partitionig runtime by incrementally updating the partitioned task graph, avoiding fully repartition the entire graph when only a small portion of the graph changes.   
+          - Implemented an efficient GPU kernel for Finite-Difference Time-Domain (FDTD) simulation that applies diamond tiling to exploit temporal data reuse in shared memory, achieving ~40% speedup over a state-of-the-art implementation on a 4M-cell problem. 
+          - Designed G-STAR, a GPU-accelerated statistical static timing analysis algorithm using level-by-level replication. G-STAR aims to enable efficient levelized data propagation for memory-bound workloads whose full level list cannot fit in GPU memory at once.  
       - role: Research Assistant
         time: 2023.1 - 2023.8
         company: University of Utah
         details: |
-          Implemented various task graph partitioners (Repcut, Vivek's, GDCA) to speed up the update timing process in OpenTimer.
+          - Implemented various task graph partitioners (Repcut, Vivek's, GDCA) to speed up the update timing process in OpenTimer.
       - role: Teaching Assistant
         time: 2022.9 - 2022.12
         company: Rutgers University
@@ -87,7 +93,7 @@ experiences:
             - Implemented a simple five-layer CNN inference phrase based on the systolic array architecture on a PYNQ-Z1 FPGA board. 
               Data is pre-trained in PC with PyTorch and loaded into DRAM through UART.
               The CNN computation part is implemented in Verilog on the FPGA part of the board. Data transfer is controlled by the SoC ZYNQ processor programmed in C. 
-            - Implemented a parser in Java with RapidWright library to parse the placement information in Xilinx's Vivado Design Tools. The output of the parser, 
+            - Implemented a parser in JavaScript with RapidWright library to parse the placement information in Xilinx's Vivado Design Tools. The output of the parser, 
               which contains the placement information from Vivado, can be used as input to academic placers to improve the placement results from Vivado. The improved placement results from the academic placers can then be inputted back 
               to Vivado to finish the later routing process.
 
@@ -102,8 +108,6 @@ projects:
       - title: G-PASTA
         link: "https://tsung-wei-huang.github.io/papers/2024-DAC-gpasta.pdf"
         tagline: "GPU Accelerated Partitioning Algorithm for Static Timing Analysis"
-        details: |
-           - Designed PASTA, a fast task-graph partitioning algorithm for static timing analysis, with both a parallel CPU version (C-PASTA ISPD’24) and a GPU version (G-PASTA DAC’24). PASTA aims to reduce task-scheduling overhead by partitioning the original task graph into a smaller graph without affecting much its parallelism. 
 
       - title: C-PASTA
         link: "https://tsung-wei-huang.github.io/papers/ispd24.pdf"
