@@ -77,7 +77,7 @@ experiences:
           - Implemented a parser in JavaScript with RapidWright library to parse the placement information in Xilinx's Vivado Design Tools. The output of the parser, 
             which contains the placement information from Vivado, can be used as input to academic placers to improve the placement results from Vivado. The improved placement results from the academic placers can then be inputted back to Vivado to finish the later routing process.
 
-experiences:
+teaching-experiences:
     title: Teaching Experiences
     info:
       - role: Teaching Assistant
