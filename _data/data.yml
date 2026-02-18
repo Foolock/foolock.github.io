@@ -53,6 +53,11 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: Software Intern 
+        time: 2024.5 - 2024.8 
+        company: Cadence 
+        details: |
+          - Worked on GPU-accelerated Statistical Static Timing Analysis. 
       - role: Research Assistant
         time: 2023.9 - Present
         company: University of Wisconsin-Madison
