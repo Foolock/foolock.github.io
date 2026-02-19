@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://github.com/Foolock/foolock.github.io/blob/master/boyang_zhang_cv.pdf 
+    pdf: /assets/files/boyang_zhang_cv.pdf 
 
 career-profile:
     title: ABOUT ME
@@ -44,7 +44,7 @@ education:
 
       - degree: MS in Electrical & Computer Engineering
         university: Rutgers University
-        time: 2019 - 2021
+        time: 2019 - 2022
 
       - degree: BS in Electronic & Information Engineering
         university: South China University of Technology
